@@ -59,9 +59,9 @@ export function Navbar() {
     <>
       <nav className="navbar">
         <div className="logo">
-          <a href="index.html">
+          <NavLink to="/">
             <img src={Logo} alt="logo" />
-          </a>
+          </NavLink>
         </div>
         <div className="navlinks">
           <ul>
