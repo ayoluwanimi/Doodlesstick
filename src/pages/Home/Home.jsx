@@ -165,6 +165,7 @@ export function Home() {
   const images = [Slide1, Slide2, Slide3, Slide4, Slide5, Slide6];
 
   useEffect(() => {
+    document.title = "Doodlesstick, Healthcare, trainings - specialist healthcare company that delivers care and support";
     document.querySelectorAll(".training-quick-view").forEach((quickView) => {
       quickView.addEventListener("click", () => {
         console.log("Quick View clicked");
@@ -235,9 +236,9 @@ export function Home() {
         rect.top >= 0 &&
         rect.left >= 0 &&
         rect.bottom <=
-          (window.innerHeight || document.documentElement.clientHeight) &&
+        (window.innerHeight || document.documentElement.clientHeight) &&
         rect.right <=
-          (window.innerWidth || document.documentElement.clientWidth)
+        (window.innerWidth || document.documentElement.clientWidth)
       );
     }
 

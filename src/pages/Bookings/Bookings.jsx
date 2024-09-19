@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Footer } from "../../components/Footer";
 import { Navbar } from "../../components/Navbar";
 import businessPlans from "../../images/businessPlans.webp";
@@ -76,6 +76,10 @@ const Bookings = () => {
       contact: "Contact Admin",
     },
   ];
+
+  useEffect(() => {
+    document.title = "Doodlessticks - Book healthcare service"
+  }, [])
 
   // Function to create a booking card
   const createBookingCard = (data) => (

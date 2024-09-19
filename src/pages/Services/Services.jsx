@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Footer } from "../../components/Footer";
 import { Navbar } from "../../components/Navbar";
 import "./Services.css";
@@ -58,6 +58,10 @@ const Services = () => {
       link: "/healthcare_training",
     },
   ];
+
+  useEffect(() => {
+    document.title = "Doodlessticks provides wide variety of health care service "
+  }, [])
 
   return (
     <>
