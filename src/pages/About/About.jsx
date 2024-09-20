@@ -3,6 +3,7 @@ import "./About.css";
 import { Footer } from "../../components/Footer";
 import { Navbar } from "../../components/Navbar";
 import BookingImg from "../../images/bookingImg.webp";
+import { useEffect } from "react";
 
 export function About() {
 
