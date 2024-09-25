@@ -37,27 +37,27 @@ const router = createBrowserRouter([
     element: <About />,
   },
   {
-    path: "/supported_living",
+    path: "/supported-living",
     element: <Supported_Living />,
   },
   {
-    path: "/domiciliary_care",
+    path: "/domiciliary-care",
     element: <Domiciliary_Care />,
   },
   {
-    path: "/live_in_care",
+    path: "/live-in-care",
     element: <Live_In_Care />,
   },
   {
-    path: "/healthcare_recruitment",
+    path: "/healthcare-recruitment",
     element: <Healthcare_Recruitment />,
   },
   {
-    path: "/healthcare_business_consultation",
+    path: "/healthcare-business-consultation",
     element: <Healthcare_Business_Consultation />,
   },
   {
-    path: "/healthcare_training",
+    path: "/healthcare-training",
     element: <Healthcare_Training />,
   },
   {
