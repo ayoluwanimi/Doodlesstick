@@ -12,6 +12,7 @@ import Slide3 from "../../images/slide3.jpg";
 import Slide1 from "../../images/slider 7.jpg";
 import Slide6 from "../../images/slider6.jpg";
 import SupportedLiving from "../../images/suported-living.jpg";
+import BookingIcon from "../../images/bookings.svg";
 import "./Home.css";
 
 import { Footer } from "../../components/Footer";
@@ -389,42 +390,42 @@ export function Home() {
 					<div class="service-box">
 						<img src={SupportedLiving} alt="supported_living" />
 						<h3>Supported Living</h3>
-						<Link to="/supported_living">
+						<Link to="/supported-living">
 							<button class="read-more-btn">Read More</button>
 						</Link>
 					</div>
 					<div class="service-box">
 						<img src={SupportedLiving} alt="supported_living" />
 						<h3>Domiciliary Care</h3>
-						<Link to="/domiciliary_care">
+						<Link to="/domiciliary-care">
 							<button class="read-more-btn">Read More</button>
 						</Link>
 					</div>
 					<div class="service-box">
 						<img src={SupportedLiving} alt="supported_living" />
 						<h3>Live-In Care</h3>
-						<Link to="/live_in_care">
+						<Link to="/live-in-care">
 							<button class="read-more-btn">Read More</button>
 						</Link>
 					</div>
 					<div class="service-box">
 						<img src={SupportedLiving} alt="supported_living" />
 						<h3>Healthcare Recruitment</h3>
-						<Link to="/healthcare_recruitment">
+						<Link to="/healthcare-recruitment">
 							<button class="read-more-btn">Read More</button>
 						</Link>
 					</div>
 					<div class="service-box">
 						<img src={SupportedLiving} alt="supported_living" />
 						<h3>Healthcare Business Consultancy</h3>
-						<Link to="/healthcare_training">
+						<Link to="/healthcare-training">
 							<button class="read-more-btn">Read More</button>
 						</Link>
 					</div>
 					<div class="service-box">
 						<img src={SupportedLiving} alt="supported_living" />
 						<h3>Healthcare Training</h3>
-						<Link to="/healthcare_business_consultation">
+						<Link to="/healthcare-business-consultation">
 							<button class="read-more-btn">Read More</button>
 						</Link>
 					</div>
@@ -432,15 +433,20 @@ export function Home() {
 			</div>
 
 			<div class="booking-section">
-				<h2 class="booking-header">Book a Session Today</h2>
-				<p class="booking-description">
-					Unlock personalized assistance and exclusive insights by
-					booking your session with us today - your tailored
-					experience awaits!
-				</p>
-				<a href="/bookings" class="booking-button">
-					Book Now
-				</a>
+				<div className="booking-left">
+					<img src={BookingIcon} alt="booking-icon" />
+				</div>
+				<div className="booking-right">
+					<h2 class="booking-header">Book a Session Today</h2>
+					<p class="booking-description">
+						Unlock personalized assistance and exclusive insights by
+						booking your session with us today - your tailored
+						experience awaits!
+					</p>
+					<a href="/bookings" class="booking-button">
+						Book Now
+					</a>
+				</div>
 			</div>
 
 			<div id="services">

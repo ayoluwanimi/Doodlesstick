@@ -89,22 +89,22 @@ export function Navbar() {
 								OUR SERVICES
 							</NavLink>
 							<div className="dropdown-content">
-								<Link to="/supported_living">
+								<Link to="/supported-living">
 									Supported Living
 								</Link>
-								<Link to="/domiciliary_care">
+								<Link to="/domiciliary-care">
 									Domiciliary Care
 								</Link>
-								<Link to="/live_in_care">
+								<Link to="/live-in-care">
 									Live in Care/24hrs
 								</Link>
-								<Link to="/healthcare_recruitment">
+								<Link to="/healthcare-recruitment">
 									Healthcare Recruitment
 								</Link>
-								<Link to="/healthcare_business_consultation">
+								<Link to="/healthcare-business-consultation">
 									Healthcare Business Consultation
 								</Link>
-								<Link to="/healthcare_training">
+								<Link to="/healthcare-training">
 									Healthcare Training
 								</Link>
 							</div>
@@ -179,7 +179,7 @@ export function Navbar() {
 					</ul>
 				</div>
 
-				<div className="flex space-x-9 items-center">
+				{/* <div className="flex space-x-9 items-center">
 					<div className="call">
 						<a href="tel:+1234567890" className="call-icon">
 							<i className="fa fa-phone"></i>
@@ -193,7 +193,7 @@ export function Navbar() {
 							</a>
 						</div>
 					</div>
-				</div>
+				</div> */}
 				<div className="menu-icon" id="menuIcon">
 					&#9776;
 				</div>
