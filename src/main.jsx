@@ -14,60 +14,61 @@ import Live_In_Care from "./pages/Services/live_in_care/live_in_care";
 import Services from "./pages/Services/Services";
 import Supported_Living from "./pages/Services/supported_living/supported_living";
 import { Vacancies } from "./pages/Vacancies/Vacancies";
+import SupportedLiving from "./pages/Services/supported_living/SupportedLiving";
 
 const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />,
-  },
-  {
-    path: "/services",
-    element: <Services />,
-  },
-  {
-    path: "/vacancies",
-    element: <Vacancies />,
-  },
-  {
-    path: "/contact-us",
-    element: <Contact />,
-  },
-  {
-    path: "/about-us",
-    element: <About />,
-  },
-  {
-    path: "/supported-living",
-    element: <Supported_Living />,
-  },
-  {
-    path: "/domiciliary-care",
-    element: <Domiciliary_Care />,
-  },
-  {
-    path: "/live-in-care",
-    element: <Live_In_Care />,
-  },
-  {
-    path: "/healthcare-recruitment",
-    element: <Healthcare_Recruitment />,
-  },
-  {
-    path: "/healthcare-business-consultation",
-    element: <Healthcare_Business_Consultation />,
-  },
-  {
-    path: "/healthcare-training",
-    element: <Healthcare_Training />,
-  },
-  {
-    path: "/bookings",
-    element: <Bookings />,
-  },
+	{
+		path: "/",
+		element: <Home />,
+	},
+	{
+		path: "/services",
+		element: <Services />,
+	},
+	{
+		path: "/vacancies",
+		element: <Vacancies />,
+	},
+	{
+		path: "/contact-us",
+		element: <Contact />,
+	},
+	{
+		path: "/about-us",
+		element: <About />,
+	},
+	{
+		path: "/supported-living",
+		element: <SupportedLiving />,
+	},
+	{
+		path: "/domiciliary-care",
+		element: <Domiciliary_Care />,
+	},
+	{
+		path: "/live-in-care",
+		element: <Live_In_Care />,
+	},
+	{
+		path: "/healthcare-recruitment",
+		element: <Healthcare_Recruitment />,
+	},
+	{
+		path: "/healthcare-business-consultation",
+		element: <Healthcare_Business_Consultation />,
+	},
+	{
+		path: "/healthcare-training",
+		element: <Healthcare_Training />,
+	},
+	{
+		path: "/bookings",
+		element: <Bookings />,
+	},
 ]);
 
 createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <RouterProvider router={router} />
-  </StrictMode>
+	<StrictMode>
+		<RouterProvider router={router} />
+	</StrictMode>
 );

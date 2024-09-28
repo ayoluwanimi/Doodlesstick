@@ -18,6 +18,10 @@
 
 /* User avatar and login section */
 
+.navlinks {
+	display: block;
+}
+
 .user-options {
 	display: flex;
 	align-items: center;
@@ -291,7 +295,7 @@
 }
 
 /* Responsive Design */
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
 	.navlinks,
 	.user-options,
 	.call {
@@ -419,7 +423,7 @@
 	.navlinks,
 	.user-options,
 	.call {
-		display: none;
+		display: flex;
 	}
 
 	.mobile-menu #serviceDropdown {
@@ -427,7 +431,7 @@
 	}
 
 	.menu-icon {
-		display: block;
+		display: none;
 	}
 
 	.mobile-menu ul li {
@@ -452,7 +456,7 @@
 	.navlinks,
 	.user-options,
 	.call {
-		display: none;
+		display: flex;
 	}
 
 	/* .mobile-menu #serviceDropdown{
@@ -460,7 +464,7 @@
     } */
 
 	.menu-icon {
-		display: block;
+		display: none;
 	}
 
 	.mobile-menu ul li {

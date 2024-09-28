@@ -192,17 +192,37 @@ a .read-more-btn:hover {
 /* Booking section */
 /* Booking Section Styles */
 .booking-section {
-	padding: 40px 20px;
+	width: 100%;
+	/* padding: 40px 20px; */
 	/* background-color: #f9f9f9; */
 	text-align: center;
 	margin: 20px 0;
 	border-radius: 8px;
+	display: flex;
+	flex-direction: row;
+	justify-items: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.booking-section .booking-left {
+	width: 50%;
+}
+
+.booking-section .booking-right {
+	width: 50%;
+	text-align: center;
+}
+
+.booking-section .booking-right h2 {
+	text-align: center;
 }
 
 .booking-header {
 	font-size: 24px;
 	font-weight: bold;
 	margin-bottom: 15px;
+	text-align: end;
 }
 
 .booking-description {
@@ -580,6 +600,7 @@ a .read-more-btn:hover {
 
 /* Our offers section */
 .offers-section {
+	width: 100%;
 	padding: 20px;
 	/* background-color: #ffeacf; */
 }
@@ -595,16 +616,17 @@ a .read-more-btn:hover {
 
 .offers-container {
 	display: flex;
+	flex-direction: row;
 	flex-wrap: wrap;
 	gap: 20px;
-	justify-content: center;
+	justify-content: space-between;
 }
 
 .offer-box {
 	padding: 20px;
 	border-radius: 8px;
-	width: 100%;
-	max-width: 400px;
+	/* width: 100%; */
+	max-width: 250px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 	text-align: center;
 	display: flex;
@@ -633,7 +655,7 @@ a .read-more-btn:hover {
 }
 
 .offer-description {
-	font-size: 14px;
+	font-size: 12px;
 	line-height: 1.5;
 }
 
@@ -685,6 +707,19 @@ a .read-more-btn:hover {
 @media (max-width: 768px) {
 	.service-box {
 		flex: 1 1 calc(50% - 20px);
+	}
+
+	.booking-section {
+		flex-direction: column;
+		gap: 30px;
+	}
+
+	.booking-section .booking-left {
+		width: 100%;
+	}
+
+	.booking-section .booking-right {
+		width: 100%;
 	}
 
 	.booking-header {
@@ -768,11 +803,32 @@ a .read-more-btn:hover {
 	.newsletter-button {
 		width: 100%;
 	}
+
+	.offers-container {
+		flex-direction: column;
+	}
+
+	.offer-box {
+		max-width: 100%;
+	}
 }
 
 @media (max-width: 480px) {
 	.service-box {
 		flex: 1 1 100%;
+	}
+
+	.booking-section {
+		flex-direction: column;
+		gap: 30px;
+	}
+
+	.booking-section .booking-left {
+		width: 100%;
+	}
+
+	.booking-section .booking-right {
+		width: 100%;
 	}
 
 	/* training and related product section */
@@ -802,6 +858,14 @@ a .read-more-btn:hover {
 
 	.quick-view-content {
 		flex-direction: column;
+	}
+
+	.offers-container {
+		flex-direction: column;
+	}
+
+	.offer-box {
+		width: 100%;
 	}
 }
 
@@ -939,6 +1003,14 @@ ul {
 	.footer-col .social-links a img {
 		width: 25px;
 	}
+
+	.offers-container {
+		flex-direction: column;
+	}
+
+	.offer-box {
+		width: 100%;
+	}
 }
 
 /* iPads and Tablets (481px — 768px) */
@@ -968,6 +1040,14 @@ ul {
 
 	.footer-col .social-links a img {
 		width: 30px;
+	}
+
+	.offers-container {
+		flex-direction: column;
+	}
+
+	.offer-box {
+		width: 100%;
 	}
 }
 
