@@ -33,6 +33,8 @@ import StressAwareness from "../../images/stress_awareness.webp";
 import UnderstandingYourRole from "../../images/understanding_your_role.webp";
 import WhistleBlowing from "../../images/whistle_blowing.webp";
 
+import { Title, Meta } from "react-head";
+
 export function Home() {
 	const settings = {
 		dots: true,
@@ -326,6 +328,11 @@ export function Home() {
 
 	return (
 		<section>
+			<Title>Doodlesstick, Healthcare, trainings</Title>
+			<Meta
+				name="Specialist healthcare company"
+				content="Unlock personalized assistance and exclusive insights by booking your session with us today - your tailored experience awaits!"
+			/>
 			<Navbar />
 			<MobileNav />
 			<Slider className="image-slider" {...settings}>
