@@ -15,6 +15,7 @@ import Services from "./pages/Services/Services";
 import Supported_Living from "./pages/Services/supported_living/supported_living";
 import { Vacancies } from "./pages/Vacancies/Vacancies";
 import SupportedLiving from "./pages/Services/supported_living/SupportedLiving";
+import { HeadProvider } from "react-head";
 
 const router = createBrowserRouter([
 	{
@@ -69,6 +70,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById("root")).render(
 	<StrictMode>
-		<RouterProvider router={router} />
+		<HeadProvider>
+			<RouterProvider router={router} />
+		</HeadProvider>
 	</StrictMode>
 );
