@@ -23,7 +23,7 @@ const Bookings = () => {
     },
     {
       image: cqc_genops,
-      title: "Policies&procedures(CQC&Gen Ops)",
+      title: "Policies & procedures (CQC & Gen Ops)",
       hours: "1hr",
       contact: "Contact Admin",
     },
@@ -41,13 +41,13 @@ const Bookings = () => {
     },
     {
       image: operatingFormats,
-      title: "Operating Formats&Templates",
+      title: "Operating Formats & Templates",
       hours: "1hr",
       contact: "Contact Admin",
     },
     {
       image: mockInspections,
-      title: "Mock Inspec.&Compliance Audits",
+      title: "Mock Inspection & Compliance Audits",
       hours: "1hr",
       contact: "Contact Admin",
     },
@@ -97,7 +97,7 @@ const Bookings = () => {
   return (
     <>
       <Navbar />
-      <div className="booking-section">
+      <div className="booking-section--booking-page">
         <h2 className="booking-header">Book Online</h2>
         <div className="booking-cards">
           {bookingCardsData.map(createBookingCard)}
