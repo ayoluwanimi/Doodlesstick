@@ -1,8 +1,13 @@
+import ApplyNow from "./ApplyNow";
+
 export default function Doctors() {
   return (
     <div className="container">
       <div className="info">
-        <p className="title">Doctors</p>
+        <div className="flex justify-between">
+          <p className="title">Doctors</p>
+          <ApplyNow />
+        </div>
         <div className="content">
           <p>
             We are inviting applications for a highly motivated and dynamic Doctors to join Doodles stick Limited

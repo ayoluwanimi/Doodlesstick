@@ -1,8 +1,13 @@
+import ApplyNow from "./ApplyNow"
+
 export default function CareTeamLeader() {
   return (
     <div className="container">
       <div className="info">
-        <p className="title">Care Team Leader</p>
+        <div className="flex justify-between">
+          <p className="title">Care Team Leader</p>
+          <ApplyNow />
+        </div>
         <div className="content">
           <p>
             We are inviting applications for a highly motivated and dynamic Care Team Leader to join Doodles stick Limited
@@ -63,6 +68,6 @@ export default function CareTeamLeader() {
           </p>
         </div>
       </div>
-    </div>
+    </div >
   )
 }

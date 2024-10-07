@@ -6,8 +6,31 @@ import { Loader } from "google-maps";
 
 export function Contact() {
 
-  const load = async () => {
+  const submit = (e) => {
+    e.preventDefault();
+    let formData = new FormData(e.target);
+    let data = {
+      first_name: formData.get("first_name"),
+      last_name: formData.get("last_name"),
+      email: formData.get("email"),
+      message: formData.get("message"),
+    }
+    const body = `
+Hello Doodlesstick Team,
+My name is ${data.first_name} ${data.last_name}.
+${data.message}
+`
+    console.log(body)
+    const mailtoLink = `mailto:doodlesstick09@gmail.com?subject=${encodeURIComponent("Doodlesstick Inquiry")}&body=${encodeURIComponent(body)}`;
+    const a = document.createElement('a');
+    a.href = mailtoLink;
+    a.target = '_blank';  // Open in a new tab
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  }
 
+  const load = async () => {
     const options = {/* todo */ };
     const loader = new Loader('AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg', options);
 
@@ -65,7 +88,7 @@ export function Contact() {
 
             <div className="feedback-form">
               <h3 style={{ textAlign: "center" }}>Leave Us a Message</h3>
-              <form action="#" method="POST">
+              <form onSubmit={(e) => submit(e)}>
                 <div className="form-group">
                   <label for="first-name">First Name:</label>
                   <input type="text" id="first-name" name="first_name" required />
