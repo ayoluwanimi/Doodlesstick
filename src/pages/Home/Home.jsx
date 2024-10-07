@@ -425,14 +425,14 @@ export function Home() {
 					<div class="service-box">
 						<img src={SupportedLiving} alt="supported_living" />
 						<h3>Healthcare Business Consultancy</h3>
-						<Link to="/healthcare-training">
+						<Link to="/healthcare-business-consultation">
 							<button class="read-more-btn">Read More</button>
 						</Link>
 					</div>
 					<div class="service-box">
 						<img src={SupportedLiving} alt="supported_living" />
 						<h3>Healthcare Training</h3>
-						<Link to="/healthcare-business-consultation">
+						<Link to="/healthcare-training">
 							<button class="read-more-btn">Read More</button>
 						</Link>
 					</div>
