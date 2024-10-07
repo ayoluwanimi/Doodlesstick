@@ -1,8 +1,13 @@
+import ApplyNow from "./ApplyNow";
+
 export default function SupportWorkers() {
   return (
     <div className="container">
       <div className="info">
-        <p className="title">Support Workers</p>
+        <div className="flex justify-between">
+          <p className="title">Support Workers</p>
+          <ApplyNow />
+        </div>
         <div className="content">
           <p>
             We are inviting applications for a highly motivated and dynamic Support Workers to join Doodles stick Limited

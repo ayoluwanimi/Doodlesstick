@@ -1,10 +1,15 @@
+import ApplyNow from "./ApplyNow";
+
 export default function HealthCareAssistant() {
   return (
     <div className="container">
       <div className="info">
-        <p className="title">
-          Healthcare Assistant
-        </p>
+        <div className="flex justify-between">
+          <p className="title">
+            Healthcare Assistant
+          </p>
+          <ApplyNow />
+        </div>
         <div className="content">
           <p>
             We are inviting applications for a highly motivated and dynamic Health Care
