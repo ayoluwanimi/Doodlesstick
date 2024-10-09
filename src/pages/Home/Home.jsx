@@ -12,6 +12,11 @@ import Slide3 from "../../images/slide3.jpg";
 import Slide1 from "../../images/slider 7.jpg";
 import Slide6 from "../../images/slider6.jpg";
 import SupportedLiving from "../../images/suported-living.jpg";
+import DomCare from "../../images/dom_care.jpg";
+import LiveIn from "../../images/live_in.jpg";
+import Recruitment from "../../images/recruitment.jpg";
+import Consultancy from "../../images/consultancy.jpg";
+import Training from "../../images/training.jpg";
 import BookingIcon from "../../images/bookings.svg";
 import "./Home.css";
 
@@ -402,35 +407,35 @@ export function Home() {
 						</Link>
 					</div>
 					<div class="service-box">
-						<img src={SupportedLiving} alt="supported_living" />
+						<img src={DomCare} alt="supported_living" />
 						<h3>Domiciliary Care</h3>
 						<Link to="/domiciliary-care">
 							<button class="read-more-btn">Read More</button>
 						</Link>
 					</div>
 					<div class="service-box">
-						<img src={SupportedLiving} alt="supported_living" />
+						<img src={LiveIn} alt="supported_living" />
 						<h3>Live-In Care</h3>
 						<Link to="/live-in-care">
 							<button class="read-more-btn">Read More</button>
 						</Link>
 					</div>
 					<div class="service-box">
-						<img src={SupportedLiving} alt="supported_living" />
+						<img src={Recruitment} alt="supported_living" />
 						<h3>Healthcare Recruitment</h3>
 						<Link to="/healthcare-recruitment">
 							<button class="read-more-btn">Read More</button>
 						</Link>
 					</div>
 					<div class="service-box">
-						<img src={SupportedLiving} alt="supported_living" />
+						<img src={Consultancy} alt="supported_living" />
 						<h3>Healthcare Business Consultancy</h3>
 						<Link to="/healthcare-business-consultation">
 							<button class="read-more-btn">Read More</button>
 						</Link>
 					</div>
 					<div class="service-box">
-						<img src={SupportedLiving} alt="supported_living" />
+						<img src={Training} alt="supported_living" />
 						<h3>Healthcare Training</h3>
 						<Link to="/healthcare-training">
 							<button class="read-more-btn">Read More</button>
