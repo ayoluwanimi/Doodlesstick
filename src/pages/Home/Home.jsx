@@ -407,35 +407,35 @@ export function Home() {
 						</Link>
 					</div>
 					<div class="service-box">
-						<img src={DomCare} alt="supported_living" />
+						<img src={DomCare} alt="domiciliary care" />
 						<h3>Domiciliary Care</h3>
 						<Link to="/domiciliary-care">
 							<button class="read-more-btn">Read More</button>
 						</Link>
 					</div>
 					<div class="service-box">
-						<img src={LiveIn} alt="supported_living" />
+						<img src={LiveIn} alt="slive-in care" />
 						<h3>Live-In Care</h3>
 						<Link to="/live-in-care">
 							<button class="read-more-btn">Read More</button>
 						</Link>
 					</div>
 					<div class="service-box">
-						<img src={Recruitment} alt="supported_living" />
+						<img src={Recruitment} alt="healthcare recruitment" />
 						<h3>Healthcare Recruitment</h3>
 						<Link to="/healthcare-recruitment">
 							<button class="read-more-btn">Read More</button>
 						</Link>
 					</div>
 					<div class="service-box">
-						<img src={Consultancy} alt="supported_living" />
+						<img src={Consultancy} alt="healthcare business consultancy" />
 						<h3>Healthcare Business Consultancy</h3>
 						<Link to="/healthcare-business-consultation">
 							<button class="read-more-btn">Read More</button>
 						</Link>
 					</div>
 					<div class="service-box">
-						<img src={Training} alt="supported_living" />
+						<img src={Training} alt="healthcare training" />
 						<h3>Healthcare Training</h3>
 						<Link to="/healthcare-training">
 							<button class="read-more-btn">Read More</button>
