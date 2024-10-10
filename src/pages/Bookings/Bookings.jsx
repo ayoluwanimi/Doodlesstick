@@ -89,10 +89,7 @@ const Bookings = () => {
         <h3 className="card-title">{data.title}</h3>
         <p className="card-hours">{data.hours}</p>
         {data.contact && <p className="card-contact">{data.contact}</p>}
-        {/* <button className="book-now-button">Book Now</button> */}
-        <Link to="/contact">
-							<button class="book-now-button">Book Now</button>
-						</Link>
+        <button className="book-now-button">Book Now</button>
       </div>
     </div>
   );
