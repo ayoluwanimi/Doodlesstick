@@ -17,6 +17,7 @@ import { Vacancies } from "./pages/Vacancies/Vacancies";
 import SupportedLiving from "./pages/Services/supported_living/SupportedLiving";
 import { HeadProvider } from "react-head";
 import { Job } from "./pages/Vacancies/Job";
+import ComingSoon from "./components/training_products/coming_soon";
 
 const router = createBrowserRouter([
   {
@@ -71,6 +72,10 @@ const router = createBrowserRouter([
     path: "/job",
     element: <Job />,
   },
+  {
+    path: "/coming-soon",
+    element: <ComingSoon />
+  }
 ]);
 
 createRoot(document.getElementById("root")).render(
