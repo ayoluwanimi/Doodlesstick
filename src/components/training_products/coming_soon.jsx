@@ -1,6 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import comingSoonImage from "../../images/maintenance.png";
+import { Navbar } from "../../components/Navbar";
+import { Footer } from "../../components/Footer";
 import "./coming_soon.css";
 
 const ComingSoon = () => {
@@ -11,6 +13,8 @@ const ComingSoon = () => {
   };
 
   return (
+    <>
+    <Navbar />
     <div className="coming-soon-container">
       <button onClick={handleBackClick} className="back-button">
         <i className="fas fa-arrow-left"></i>
@@ -22,6 +26,8 @@ const ComingSoon = () => {
       />
       <h2>Coming Soon</h2>
     </div>
+    <Footer />
+    </>
   );
 };
 
