@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { Footer } from "../../components/Footer";
 import { Navbar } from "../../components/Navbar";
 import businessPlans from "../../images/businessPlans.webp";
@@ -14,6 +15,8 @@ import relevantBespoke from "../../images/relevantBespoke.webp";
 import "./Bookings.css";
 
 const Bookings = () => {
+  const navigate = useNavigate();
+
   const bookingCardsData = [
     {
       image: cqcImage,
@@ -78,8 +81,8 @@ const Bookings = () => {
   ];
 
   useEffect(() => {
-    document.title = "Doodlessticks - Book healthcare service"
-  }, [])
+    document.title = "Doodlessticks - Book healthcare service";
+  }, []);
 
   // Function to create a booking card
   const createBookingCard = (data) => (
@@ -89,7 +92,12 @@ const Bookings = () => {
         <h3 className="card-title">{data.title}</h3>
         <p className="card-hours">{data.hours}</p>
         {data.contact && <p className="card-contact">{data.contact}</p>}
-        <button className="book-now-button">Book Now</button>
+        <button
+          className="book-now-button"
+          onClick={() => navigate("/contact-us")}
+        >
+          Book Now
+        </button>
       </div>
     </div>
   );

@@ -220,6 +220,8 @@ export function Home() {
 					}
 				});
 			});
+
+
 		const progressBars = document.querySelectorAll(".progress-bar");
 		const labels = document.querySelectorAll(".percentage-label");
 		const serviceSection = document.getElementById("services");

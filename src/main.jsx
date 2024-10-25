@@ -41,7 +41,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/supported-living",
-    element: <SupportedLiving />,
+    element: <Supported_Living />,
   },
   {
     path: "/domiciliary-care",
