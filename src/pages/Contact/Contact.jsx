@@ -93,10 +93,10 @@ ${data.message}
           <div className="contact-details">
             <div className="location-info">
               <h3 style={{ textAlign: "center" }}>Our Location</h3>
-              <p><strong>Address:</strong> Suite 8, 20-30A, Abington street, Northampton. NN1 2AJ</p>
+              <p><strong>Address:</strong> Suite G7, Moulton Park Business, Redhouse Road, Northampton, NN3 6AQ.</p>
               <p><strong>Phone:</strong> <a href="tel:+1234567890">01604216476</a>, <a
                 href="tel:+1234567890">07737493075</a></p>
-              <p><strong>Email:</strong> <a href="mailto:doodlesstick09@gmail.com">doodlesstick09@gmail.com</a></p>
+              <p><strong>Email:</strong> <a href="mailto:info@doodlesstick.com">info@doodlesstick.com</a></p>
               <p style={{ fontStyle: "italic", color: "rgb(15,92,15)" }}>Contact us for the best health care advice.
               </p>
             </div>

@@ -47,8 +47,11 @@ export function Footer() {
                 </li>
                 <li>
                   <a href="#" className="address-icon">
-                    <i class="fas fa-map-marker-alt"></i>Suite 8. 20-30A,
-                    Abington street, Northampton. NN1 2AJ
+                    <i class="fas fa-map-marker-alt"></i>Suite G7,
+                    Moulton Park Business,
+                    Redhouse Road,
+                    Northampton,
+                    NN3 6AQ.
                   </a>
                 </li>
               </ul>
