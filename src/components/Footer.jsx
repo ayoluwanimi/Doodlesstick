@@ -48,7 +48,7 @@ export function Footer() {
                 <li>
                   <a href="#" className="address-icon">
                     <i class="fas fa-map-marker-alt"></i>Suite G7,
-                    Moulton Park Business,
+                    Moulton Park Business Centre,
                     Redhouse Road,
                     Northampton,
                     NN3 6AQ.
