@@ -94,8 +94,8 @@ ${data.message}
             <div className="location-info">
               <h3 style={{ textAlign: "center" }}>Our Location</h3>
               <p><strong>Address:</strong> Suite G7, Moulton Park Business Centre, Redhouse Road, Northampton, NN3 6AQ.</p>
-              <p><strong>Phone:</strong> <a href="tel:+1234567890">01604216476</a>, <a
-                href="tel:+1234567890">07737493075</a></p>
+              <p><strong>Phone:</strong> <a href="tel:01604216476">01604216476</a>,
+                <a href="tel:07737493075">07737493075</a></p>
               <p><strong>Email:</strong> <a href="mailto:info@doodlesstick.com">info@doodlesstick.com</a></p>
               <p style={{ fontStyle: "italic", color: "rgb(15,92,15)" }}>Contact us for the best health care advice.
               </p>
