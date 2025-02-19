@@ -60,26 +60,26 @@ export function Footer() {
               <h4>Our Services</h4>
               <ul>
                 <li>
-                  <Link to="/supported_living">Supported Living</Link>
+                  <Link to="/supported-living">Supported Living</Link>
                 </li>
                 <li>
-                  <Link to="/domiciliary_care">Domiciliary Care</Link>
+                  <Link to="/domiciliary-care">Domiciliary Care</Link>
                 </li>
                 <li>
-                  <Link to="/live_in_care">Live in Care/24hrs</Link>
+                  <Link to="/live-in-care">Live in Care/24hrs</Link>
                 </li>
                 <li>
-                  <Link to="/healthcare_recruitment">
+                  <Link to="/healthcare-recruitment">
                     Healthcare Recruitment
                   </Link>
                 </li>
                 <li>
-                  <Link to="/healthcare_business_consultation">
+                  <Link to="/healthcare-business-consultation">
                     Healthcare Business Consultation
                   </Link>
                 </li>
                 <li>
-                  <Link to="/healthcare_training">Healthcare Training</Link>
+                  <Link to="/healthcare-training">Healthcare Training</Link>
                 </li>
               </ul>
             </div>

@@ -659,10 +659,11 @@ export function Home() {
             type="email"
             class="newsletter-input"
             placeholder="Enter your email here"
+            disabled
           />
         </div>
         <div class="newsletter-button">
-          <button>Subscribe Now</button>
+          <button disabled>Subscribe Now</button>
         </div>
       </div>
 
