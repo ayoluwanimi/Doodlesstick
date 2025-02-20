@@ -46,7 +46,15 @@ export function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="address-icon">
+                  <a className="address-icon"
+                   href="https://www.google.com/maps/search/?api=1&query=Suite+G7,
+                    +Moulton+Park+Business+Centre,
+                    +Redhouse+Road,
+                    +Northampton,
+                    +NN3+6AQ."
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <i class="fas fa-map-marker-alt"></i>Suite G7,
                     Moulton Park Business Centre,
                     Redhouse Road,
@@ -86,16 +94,16 @@ export function Footer() {
             <div className="footer-col">
               <h4>follow us</h4>
               <div className="social-links">
-                <a href="#">
+                <a href="/">
                   <img src={FB} alt="Facebook" />
                 </a>
-                <a href="#">
+                <a href="/">
                   <img src={Insta} alt="Instagram" />
                 </a>
-                <a href="#">
+                <a href="/">
                   <img src={Whatsapp} alt="Whatsapp" />
                 </a>
-                <a href="#">
+                <a href="/">
                   <img src={X} alt="X" />
                 </a>
               </div>
